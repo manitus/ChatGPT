@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pet Friendly Web</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Pet Friendly Web</h1>
+    <p>Your one-stop destination for all things pet-friendly!</p>
+    <a href="#services" class="cta-button">Explore More</a>
+  </header>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+      <img src="dog.jpg" alt="Dog">
+      <h3>Dog Walking</h3>
+      <p>Let our experienced dog walkers take your furry friend for a stroll.</p>
+    </div>
+    <div class="service-item">
+      <img src="cat.jpg" alt="Cat">
+      <h3>Cat Sitting</h3>
+      <p>Trust our cat sitters to provide personalized care for your beloved feline.</p>
+    </div>
+    <div class="service-item">
+      <img src="pets.jpg" alt="Pet Friendly">
+      <h3>Pet-Friendly Places</h3>
+      <p>Discover pet-friendly parks, cafes, and more in your area.</p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <form id="contact-form">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+   </form>
+   <footer>
+    <p>&copy; 2023 Pet Friendly Web. All rights reserved.</p>
+  </footer>
+</body>
+</html>
